@@ -41,6 +41,7 @@ ul {
       align-items: center;
 }
 .logo{
+      margin-left: 215px;
       color: var(--logo-black-color);
       font-family: 'Raleway', sans-serif;
        font-weight: 700;
@@ -54,6 +55,7 @@ ul {
 /*site-nav*/
 .site-nav_list{
       display: flex;
+      margin-left: 93px;
 }
 .site-nav_item:not(:last-child){
 margin-right: 50px;
@@ -76,6 +78,7 @@ margin-right: 50px;
 /*auth-nav*/
 .auth-nav_list{
       display: flex;
+      margin-right: 215px;
 }
 .auth-nav_item:not(:last-child) {
       margin-right: 50px;
