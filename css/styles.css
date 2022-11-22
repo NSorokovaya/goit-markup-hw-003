@@ -28,20 +28,19 @@ ul {
 /*черный logo ##000000*/
 .page-header{
       display: flex;
-      align-items: center;
 }
 .container {
       width: 1200px;
       margin: 0 auto;
       padding-left: 15px;
       padding-right: 15px;
-}
-.main-nav{
       display: flex;
       align-items: center;
 }
+.main-nav{
+      display: flex;
+}
 .logo{
-      margin-left: 215px;
       color: var(--logo-black-color);
       font-family: 'Raleway', sans-serif;
        font-weight: 700;
@@ -53,20 +52,26 @@ ul {
       color:var(--accent);
 }
 /*site-nav*/
+.site_nav{
+font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+}
 .site-nav_list{
       display: flex;
-      margin-left: 93px;
+      
 }
 .site-nav_item:not(:last-child){
 margin-right: 50px;
 }
 .site-nav_link {
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px;
       color: var(--additional-text-color);
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-      text-decoration: none
+      
 }
 .site-nav_link:hover,
 .site-nav_link:focus {
@@ -78,11 +83,10 @@ margin-right: 50px;
 /*auth-nav*/
 .auth-nav_list{
       display: flex;
-      margin-right: 215px;
+      margin-left: auto;
 }
 .auth-nav_item:not(:last-child) {
       margin-right: 50px;
-      margin-top: 32px;
 }
 .auth-nav_link {
       color: var(--primary-text-color);
