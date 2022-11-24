@@ -76,13 +76,13 @@ img {
 /*site-nav*/
 .site_nav {
   display: flex;
+}
+.site-nav_list {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.site-nav_list {
-  display: flex;
 }
 .site-nav_item:not(:last-child) {
   margin-right: 50px;
@@ -135,8 +135,6 @@ img {
 }
 .hero-title {
   margin-bottom: 30px;
-  margin-right: 452px;
-  margin-left: 452px;
   color: var(--white);
   font-weight: 900;
   font-size: 44px;
@@ -265,10 +263,10 @@ img {
 .page-footer .container {
   display: flex;
   flex-direction: column;
+  padding-top: 60px ;
+  padding-bottom: 60px;
 }
 .page-footer_logo {
-  margin-left: 215px;
-  margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 700;
   color: var(--white);
@@ -281,7 +279,6 @@ img {
 .direction {
   display: flex;
   flex-direction: column;
-  margin-left: 215px;
   color: var(--white);
   font-style: normal;
   font-size: 14px;
@@ -343,7 +340,7 @@ img {
   text-decoration: none;
 }
 .card-list_title {
-  margin: 20px 24px 4px 24px;
+  margin-bottom: 4px;
   color: var(--additional-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -352,8 +349,6 @@ img {
 }
 
 .card-list_text {
-  margin-left: 24px;
-  margin-right: 24px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 400;
@@ -361,6 +356,7 @@ img {
   line-height: 1.8;
 }
 .card_intro {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-radius: 0px 0px 4px 4px;
 }
