@@ -49,9 +49,9 @@ img {
       display: flex;
       align-items: center;
 }
-.header-container{
+.header-container {
       display: flex;
-            align-items: center;
+      align-items: center;
 }
 .container {
       width: 1200px;
@@ -149,7 +149,7 @@ margin-right: 50px;
             letter-spacing: 0.06em;
             text-transform: uppercase;
 }
-.hero button{
+.hero-button{
       padding: 10px 32px;
       background-color: var(--accent);
       color: var(--white);
@@ -306,36 +306,61 @@ font-family: 'Roboto';
       color: #2196F3;
 }
 /*css for portfolio*/
- button{
-      margin: 0;
-      padding: 0;
+ .options_button{
+padding: 6px 25px;
 color:  var(--additional-text-color);
-background-color: var(--second-background-color);
-font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
-      cursor:pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+cursor:pointer;
+border-radius: 4px;
+border: transparent;
 }
-.options button:hover,
-.options button:focus{
+
+.options{
+      display: flex;
+      margin: 100px 0 50px 0;
+      justify-content: center;
+      gap: 30px;
+}
+   
+.options_button:hover,
+.options_button:focus{
      color: var(--white);
      background-color: var(--accent);
 }
+.card-list{
+      display: flex;
+      flex-wrap: wrap;
+background-color: var(--white);
+
+}
+.card-list_item{
+      margin-right: 30px;
+      margin-bottom: 30px;
+border: 1px solid #EEEEEE;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+}
 .card-list_link{
+      margin-bottom: 20px;
       text-decoration: none;
 }
 .card-list_title{
-            color: var(--additional-text-color);
-            font-weight: 700;
-            font-size: 18px;
-            line-height:2;
-            letter-spacing: 0.06em;
+margin:20px 24px 4px 24px;
+color: var(--additional-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height:2;
+letter-spacing: 0.06em;
 }
-.card-list_link p{
-      color: var(--primary-text-color);
+.card-list_text{
+margin-left:24px;
+margin-right: 24px;
+color: var(--primary-text-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
-
 }
